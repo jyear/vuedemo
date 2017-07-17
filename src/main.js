@@ -15,13 +15,10 @@ const vue_store=new Vuex.Store({
         name:'张三丰'
     }
 });
-
 var router = new VueRouter({
     routes,
     mode:'history'
 });
-
-
 new Vue({
    el: '#app',
    store:vue_store,
