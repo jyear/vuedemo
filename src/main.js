@@ -13,7 +13,8 @@ import routes from "./routes.js"
 
 
 var router = new VueRouter({
-    routes
+    routes,
+    mode:'history'
 });
 
 
