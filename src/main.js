@@ -13,7 +13,8 @@ import routes from "./routes.js"
 
 const vue_store=new Vuex.Store({
     state:{
-        msg:'this is a demo'
+        msg:'this is a demo',
+        name:'张三丰'
     }
 })
 
